@@ -19,7 +19,7 @@ async def ping(ctx):
 
 @bot.command()
 async def statement(ctx):
-	await ctx.send("Your god is me. NOW GET ON YOUR KNEES AND WORSHIP ME!!!")
+	await ctx.send("")
 
 # Run using token from environment variable
 load_dotenv()
