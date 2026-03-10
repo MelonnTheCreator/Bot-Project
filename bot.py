@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix=["m! ", "melonn ", "mel ", ".m "], intents=intents)
+bot = commands.Bot(command_prefix=["m! ", "m!", "melonn ", "mel ", ".m ", ".m"], intents=intents)
 
 @bot.event
 async def on_ready():
